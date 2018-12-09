@@ -1,0 +1,7 @@
+com/coviam/codiecon/mongo/backend/web/model/base/BaseResponse.class
+com/coviam/codiecon/mongo/backend/web/model/response/UserResponse.class
+com/coviam/codiecon/mongo/backend/web/model/request/UserWebRequest$UserWebRequestBuilder.class
+com/coviam/codiecon/mongo/backend/web/model/request/UserWebRequest.class
+com/coviam/codiecon/mongo/backend/web/model/base/BaseRestResponse.class
+com/coviam/codiecon/mongo/backend/web/model/response/AnswerDto.class
+com/coviam/codiecon/mongo/backend/web/model/base/BaseRestResponse$BaseRestResponseBuilder.class

@@ -1,0 +1,1079 @@
+[2018-12-09T18:17:45,032+07:00]  INFO 4662 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4662 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:17:45,067+07:00]  INFO 4662 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:17:49,112+07:00]  INFO 4662 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:17:49,138+07:00]  INFO 4662 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:17:49,139+07:00]  INFO 4662 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:17:49,158+07:00]  INFO 4662 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:17:49,517+07:00]  INFO 4662 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:17:50,687+07:00]  INFO 4662 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:17:50,687+07:00]  INFO 4662 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:17:50,778+07:00]  INFO 4662 --- [cluster-ClusterId{value='5c0cf9dec8c2b4123605a8cf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+[2018-12-09T18:17:50,784+07:00]  INFO 4662 --- [cluster-ClusterId{value='5c0cf9dec8c2b4123605a8cf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2026537}
+[2018-12-09T18:17:50,785+07:00]  INFO 4662 --- [cluster-ClusterId{value='5c0cf9dec8c2b4123605a8cf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:17:52,108+07:00]  INFO 4662 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:17:52,123+07:00]  WARN 4662 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:17:52,127+07:00]  INFO 4662 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:17:52,132+07:00]  INFO 4662 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:17:52,134+07:00]  INFO 4662 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:17:52,135+07:00]  INFO 4662 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:17:54,412+07:00]  INFO 4662 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:17:54,447+07:00]  INFO 4662 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:17:54,465+07:00]  INFO 4662 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:17:54,797+07:00]  INFO 4662 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+[2018-12-09T18:17:54,912+07:00]  INFO 4662 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:17:54,957+07:00]  INFO 4662 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:17:54,985+07:00]  INFO 4662 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.73 seconds (JVM running for 12.859)
+[2018-12-09T18:18:02,856+07:00]  INFO 4662 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:18:55,431+07:00]  INFO 4674 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4674 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:18:55,456+07:00]  INFO 4674 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:18:59,678+07:00]  INFO 4674 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+[2018-12-09T18:18:59,699+07:00]  INFO 4674 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:18:59,700+07:00]  INFO 4674 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:18:59,723+07:00]  INFO 4674 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:19:00,038+07:00]  INFO 4674 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:19:01,408+07:00]  INFO 4674 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:19:01,409+07:00]  INFO 4674 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:19:01,512+07:00]  INFO 4674 --- [cluster-ClusterId{value='5c0cfa25c8c2b412421abd6b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+[2018-12-09T18:19:01,517+07:00]  INFO 4674 --- [cluster-ClusterId{value='5c0cfa25c8c2b412421abd6b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2113626}
+[2018-12-09T18:19:01,518+07:00]  INFO 4674 --- [cluster-ClusterId{value='5c0cfa25c8c2b412421abd6b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:19:02,749+07:00]  INFO 4674 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:19:02,763+07:00]  WARN 4674 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:19:02,766+07:00]  INFO 4674 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:19:02,771+07:00]  INFO 4674 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:19:02,773+07:00]  INFO 4674 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:19:02,775+07:00]  INFO 4674 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:19:05,165+07:00]  INFO 4674 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:19:05,206+07:00]  INFO 4674 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:19:05,224+07:00]  INFO 4674 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:19:05,590+07:00]  INFO 4674 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+[2018-12-09T18:19:05,703+07:00]  INFO 4674 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+[2018-12-09T18:19:05,750+07:00]  INFO 4674 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:19:05,785+07:00]  INFO 4674 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.844 seconds (JVM running for 12.841)
+[2018-12-09T18:20:14,111+07:00]  INFO 4694 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4694 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:20:14,118+07:00]  INFO 4694 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:20:18,531+07:00]  INFO 4694 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:20:18,553+07:00]  INFO 4694 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:20:18,553+07:00]  INFO 4694 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:20:18,574+07:00]  INFO 4694 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:20:18,999+07:00]  INFO 4694 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:20:20,108+07:00]  INFO 4694 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:20:20,108+07:00]  INFO 4694 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:20:20,192+07:00]  INFO 4694 --- [cluster-ClusterId{value='5c0cfa74c8c2b41256e137cc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+[2018-12-09T18:20:20,198+07:00]  INFO 4694 --- [cluster-ClusterId{value='5c0cfa74c8c2b41256e137cc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2945918}
+[2018-12-09T18:20:20,200+07:00]  INFO 4694 --- [cluster-ClusterId{value='5c0cfa74c8c2b41256e137cc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:20:21,669+07:00]  INFO 4694 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:20:21,683+07:00]  WARN 4694 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:20:21,686+07:00]  INFO 4694 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:20:21,691+07:00]  INFO 4694 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:20:21,693+07:00]  INFO 4694 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:20:21,694+07:00]  INFO 4694 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:20:24,903+07:00]  INFO 4694 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:20:25,307+07:00]  INFO 4694 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:20:25,325+07:00]  INFO 4694 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:20:25,734+07:00]  INFO 4694 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+[2018-12-09T18:20:25,927+07:00]  INFO 4694 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:20:25,980+07:00]  INFO 4694 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:20:26,012+07:00]  INFO 4694 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 13.462 seconds (JVM running for 14.448)
+[2018-12-09T18:20:26,806+07:00]  INFO 4694 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:21:14,716+07:00]  INFO 4703 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4703 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:21:15,361+07:00]  INFO 4703 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:21:20,862+07:00]  INFO 4703 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:21:20,883+07:00]  INFO 4703 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:21:20,883+07:00]  INFO 4703 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:21:20,900+07:00]  INFO 4703 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:21:21,218+07:00]  INFO 4703 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:21:22,667+07:00]  INFO 4703 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:21:22,667+07:00]  INFO 4703 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:21:22,781+07:00]  INFO 4703 --- [cluster-ClusterId{value='5c0cfab2c8c2b4125f6d44fb', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:34}] to localhost:27017
+[2018-12-09T18:21:22,786+07:00]  INFO 4703 --- [cluster-ClusterId{value='5c0cfab2c8c2b4125f6d44fb', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1861449}
+[2018-12-09T18:21:22,788+07:00]  INFO 4703 --- [cluster-ClusterId{value='5c0cfab2c8c2b4125f6d44fb', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:21:24,686+07:00]  INFO 4703 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:21:24,699+07:00]  WARN 4703 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:21:24,703+07:00]  INFO 4703 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:21:24,711+07:00]  INFO 4703 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:21:24,713+07:00]  INFO 4703 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:21:24,715+07:00]  INFO 4703 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:21:28,291+07:00]  INFO 4703 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:21:28,332+07:00]  INFO 4703 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:21:28,358+07:00]  INFO 4703 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:21:28,999+07:00]  INFO 4703 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+[2018-12-09T18:21:29,143+07:00]  INFO 4703 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:21:29,198+07:00]  INFO 4703 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:21:29,254+07:00]  INFO 4703 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 15.989 seconds (JVM running for 17.159)
+[2018-12-09T18:21:32,961+07:00]  INFO 4703 --- [http-nio-8084-exec-2] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:22:14,559+07:00]  INFO 4716 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4716 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:22:14,876+07:00]  INFO 4716 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:22:18,827+07:00]  INFO 4716 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:22:18,847+07:00]  INFO 4716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:22:18,848+07:00]  INFO 4716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:22:18,861+07:00]  INFO 4716 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:22:19,181+07:00]  INFO 4716 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:22:20,217+07:00]  INFO 4716 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:22:20,217+07:00]  INFO 4716 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:22:20,306+07:00]  INFO 4716 --- [cluster-ClusterId{value='5c0cfaecc8c2b4126c752da4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+[2018-12-09T18:22:20,311+07:00]  INFO 4716 --- [cluster-ClusterId{value='5c0cfaecc8c2b4126c752da4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2472666}
+[2018-12-09T18:22:20,313+07:00]  INFO 4716 --- [cluster-ClusterId{value='5c0cfaecc8c2b4126c752da4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:22:21,487+07:00]  INFO 4716 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:22:21,496+07:00]  WARN 4716 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:22:21,498+07:00]  INFO 4716 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:22:21,501+07:00]  INFO 4716 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:22:21,503+07:00]  INFO 4716 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:22:21,504+07:00]  INFO 4716 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:22:23,699+07:00]  INFO 4716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:22:23,755+07:00]  INFO 4716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:22:23,778+07:00]  INFO 4716 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:22:24,091+07:00]  INFO 4716 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:22:24,143+07:00]  INFO 4716 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:22:24,177+07:00]  INFO 4716 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.19 seconds (JVM running for 12.125)
+[2018-12-09T18:22:26,230+07:00]  INFO 4716 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:23:42,883+07:00]  INFO 4716 --- [http-nio-8084-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:36}] to localhost:27017
+[2018-12-09T18:24:31,425+07:00]  INFO 4716 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:36}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:24:36,505+07:00]  INFO 4740 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4740 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:24:36,518+07:00]  INFO 4740 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:24:48,482+07:00]  INFO 4740 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:24:48,579+07:00]  INFO 4740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:24:48,580+07:00]  INFO 4740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:24:48,616+07:00]  INFO 4740 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:24:49,036+07:00]  INFO 4740 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:24:53,102+07:00]  INFO 4740 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:24:53,103+07:00]  INFO 4740 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:24:53,338+07:00]  INFO 4740 --- [cluster-ClusterId{value='5c0cfb85c8c2b41284a3b89d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:37}] to localhost:27017
+[2018-12-09T18:24:53,406+07:00]  INFO 4740 --- [cluster-ClusterId{value='5c0cfb85c8c2b41284a3b89d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1758279}
+[2018-12-09T18:24:53,547+07:00]  INFO 4740 --- [cluster-ClusterId{value='5c0cfb85c8c2b41284a3b89d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:24:57,292+07:00]  INFO 4740 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:24:57,384+07:00]  WARN 4740 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:24:57,399+07:00]  INFO 4740 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:24:57,406+07:00]  INFO 4740 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:24:57,409+07:00]  INFO 4740 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:24:57,410+07:00]  INFO 4740 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:25:03,022+07:00]  INFO 4740 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:25:03,090+07:00]  INFO 4740 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:25:03,127+07:00]  INFO 4740 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:25:03,904+07:00]  INFO 4740 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:25:04,056+07:00]  INFO 4740 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:25:04,123+07:00]  INFO 4740 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 29.552 seconds (JVM running for 30.795)
+[2018-12-09T18:25:05,297+07:00]  INFO 4740 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:25:18,395+07:00]  INFO 4740 --- [http-nio-8084-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:38}] to localhost:27017
+[2018-12-09T18:28:24,600+07:00]  INFO 4740 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:38}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:28:28,614+07:00]  INFO 4802 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4802 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:28:28,634+07:00]  INFO 4802 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:28:32,940+07:00]  INFO 4802 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:28:32,956+07:00]  INFO 4802 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:28:32,957+07:00]  INFO 4802 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:28:32,973+07:00]  INFO 4802 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:28:35,580+07:00]  INFO 4802 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:28:36,692+07:00]  INFO 4802 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:28:36,693+07:00]  INFO 4802 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:28:36,800+07:00]  INFO 4802 --- [cluster-ClusterId{value='5c0cfc64c8c2b412c2de028d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:39}] to localhost:27017
+[2018-12-09T18:28:36,806+07:00]  INFO 4802 --- [cluster-ClusterId{value='5c0cfc64c8c2b412c2de028d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2027363}
+[2018-12-09T18:28:36,809+07:00]  INFO 4802 --- [cluster-ClusterId{value='5c0cfc64c8c2b412c2de028d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:28:38,207+07:00]  INFO 4802 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:28:38,219+07:00]  WARN 4802 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:28:38,222+07:00]  INFO 4802 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:28:38,226+07:00]  INFO 4802 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:28:38,230+07:00]  INFO 4802 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:28:38,231+07:00]  INFO 4802 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:28:40,506+07:00]  INFO 4802 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:28:40,546+07:00]  INFO 4802 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:28:40,566+07:00]  INFO 4802 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:28:40,877+07:00]  INFO 4802 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:28:40,927+07:00]  INFO 4802 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:28:40,965+07:00]  INFO 4802 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 13.864 seconds (JVM running for 14.856)
+[2018-12-09T18:28:46,012+07:00]  INFO 4802 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:29:54,251+07:00]  INFO 4816 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4816 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:29:54,269+07:00]  INFO 4816 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:29:59,266+07:00]  INFO 4816 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:29:59,290+07:00]  INFO 4816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:29:59,291+07:00]  INFO 4816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:29:59,309+07:00]  INFO 4816 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:29:59,810+07:00]  INFO 4816 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:30:02,703+07:00]  INFO 4816 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:30:02,706+07:00]  INFO 4816 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:30:02,870+07:00]  INFO 4816 --- [cluster-ClusterId{value='5c0cfcbac8c2b412d0491672', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:40}] to localhost:27017
+[2018-12-09T18:30:02,876+07:00]  INFO 4816 --- [cluster-ClusterId{value='5c0cfcbac8c2b412d0491672', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1972656}
+[2018-12-09T18:30:02,879+07:00]  INFO 4816 --- [cluster-ClusterId{value='5c0cfcbac8c2b412d0491672', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:30:05,951+07:00]  INFO 4816 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:30:05,971+07:00]  WARN 4816 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:30:05,975+07:00]  INFO 4816 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:30:05,982+07:00]  INFO 4816 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:30:05,984+07:00]  INFO 4816 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:30:05,985+07:00]  INFO 4816 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:30:09,930+07:00]  INFO 4816 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:30:10,016+07:00]  INFO 4816 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:30:10,045+07:00]  INFO 4816 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:30:10,778+07:00]  INFO 4816 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:30:10,845+07:00]  INFO 4816 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:30:10,901+07:00]  INFO 4816 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 18.104 seconds (JVM running for 19.033)
+[2018-12-09T18:30:48,428+07:00]  INFO 4816 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:31:20,873+07:00]  INFO 4832 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4832 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:31:20,886+07:00]  INFO 4832 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:31:25,860+07:00]  INFO 4832 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:31:25,912+07:00]  INFO 4832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:31:25,913+07:00]  INFO 4832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:31:25,934+07:00]  INFO 4832 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:31:26,757+07:00]  INFO 4832 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:31:27,918+07:00]  INFO 4832 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:31:27,918+07:00]  INFO 4832 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:31:28,012+07:00]  INFO 4832 --- [cluster-ClusterId{value='5c0cfd0fc8c2b412e0db206d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:41}] to localhost:27017
+[2018-12-09T18:31:28,017+07:00]  INFO 4832 --- [cluster-ClusterId{value='5c0cfd0fc8c2b412e0db206d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2036947}
+[2018-12-09T18:31:28,019+07:00]  INFO 4832 --- [cluster-ClusterId{value='5c0cfd0fc8c2b412e0db206d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:31:29,269+07:00]  INFO 4832 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:31:29,293+07:00]  WARN 4832 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:31:29,299+07:00]  INFO 4832 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:31:29,304+07:00]  INFO 4832 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:31:29,305+07:00]  INFO 4832 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:31:29,307+07:00]  INFO 4832 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:31:31,622+07:00]  INFO 4832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:31:31,657+07:00]  INFO 4832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:31:31,674+07:00]  INFO 4832 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:31:31,944+07:00]  INFO 4832 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:31:31,989+07:00]  INFO 4832 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:31:32,022+07:00]  INFO 4832 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 12.816 seconds (JVM running for 13.796)
+[2018-12-09T18:31:46,948+07:00]  INFO 4832 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:32:07,201+07:00]  INFO 4840 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4840 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:32:07,291+07:00]  INFO 4840 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:32:13,233+07:00]  INFO 4840 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:32:13,286+07:00]  INFO 4840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:32:13,287+07:00]  INFO 4840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:32:13,306+07:00]  INFO 4840 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:32:13,634+07:00]  INFO 4840 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:32:15,033+07:00]  INFO 4840 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:32:15,033+07:00]  INFO 4840 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:32:15,129+07:00]  INFO 4840 --- [cluster-ClusterId{value='5c0cfd3fc8c2b412e8817d07', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:42}] to localhost:27017
+[2018-12-09T18:32:15,133+07:00]  INFO 4840 --- [cluster-ClusterId{value='5c0cfd3fc8c2b412e8817d07', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1732064}
+[2018-12-09T18:32:15,135+07:00]  INFO 4840 --- [cluster-ClusterId{value='5c0cfd3fc8c2b412e8817d07', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:32:17,085+07:00]  INFO 4840 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:32:17,098+07:00]  WARN 4840 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:32:17,101+07:00]  INFO 4840 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:32:17,107+07:00]  INFO 4840 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:32:17,109+07:00]  INFO 4840 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:32:17,212+07:00]  INFO 4840 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:32:21,395+07:00]  INFO 4840 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:32:21,444+07:00]  INFO 4840 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:32:21,465+07:00]  INFO 4840 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:32:22,041+07:00]  INFO 4840 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:32:22,095+07:00]  INFO 4840 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:32:22,131+07:00]  INFO 4840 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 16.885 seconds (JVM running for 17.832)
+[2018-12-09T18:32:22,390+07:00]  INFO 4840 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:34:05,673+07:00]  INFO 4868 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4868 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:34:05,708+07:00]  INFO 4868 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:34:11,955+07:00]  INFO 4871 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4871 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:34:11,972+07:00]  INFO 4871 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:34:16,594+07:00]  INFO 4871 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:34:16,619+07:00]  INFO 4871 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:34:16,620+07:00]  INFO 4871 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:34:16,643+07:00]  INFO 4871 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:34:16,994+07:00]  INFO 4871 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:34:18,107+07:00]  INFO 4871 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:34:18,108+07:00]  INFO 4871 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:34:18,192+07:00]  INFO 4871 --- [cluster-ClusterId{value='5c0cfdbac8c2b41307eabda8', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:43}] to localhost:27017
+[2018-12-09T18:34:18,196+07:00]  INFO 4871 --- [cluster-ClusterId{value='5c0cfdbac8c2b41307eabda8', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1590207}
+[2018-12-09T18:34:18,198+07:00]  INFO 4871 --- [cluster-ClusterId{value='5c0cfdbac8c2b41307eabda8', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:34:19,552+07:00]  INFO 4871 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:34:19,565+07:00]  WARN 4871 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:34:19,568+07:00]  INFO 4871 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:34:19,574+07:00]  INFO 4871 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:34:19,577+07:00]  INFO 4871 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:34:19,578+07:00]  INFO 4871 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:34:21,867+07:00]  INFO 4871 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:34:21,905+07:00]  INFO 4871 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:34:21,921+07:00]  INFO 4871 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:34:22,203+07:00]  INFO 4871 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:34:22,251+07:00]  INFO 4871 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:34:22,280+07:00]  INFO 4871 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.913 seconds (JVM running for 12.873)
+[2018-12-09T18:34:25,372+07:00]  INFO 4871 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:34:31,879+07:00]  INFO 4871 --- [http-nio-8084-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:44}] to localhost:27017
+[2018-12-09T18:34:43,061+07:00]  INFO 4871 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:44}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:34:47,200+07:00]  INFO 4878 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4878 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:34:47,230+07:00]  INFO 4878 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:34:51,363+07:00]  INFO 4878 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:34:51,388+07:00]  INFO 4878 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:34:51,390+07:00]  INFO 4878 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:34:51,409+07:00]  INFO 4878 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:34:51,733+07:00]  INFO 4878 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:34:52,793+07:00]  INFO 4878 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:34:52,793+07:00]  INFO 4878 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:34:52,876+07:00]  INFO 4878 --- [cluster-ClusterId{value='5c0cfddcc8c2b4130ebe66fc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:45}] to localhost:27017
+[2018-12-09T18:34:52,880+07:00]  INFO 4878 --- [cluster-ClusterId{value='5c0cfddcc8c2b4130ebe66fc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1791709}
+[2018-12-09T18:34:52,883+07:00]  INFO 4878 --- [cluster-ClusterId{value='5c0cfddcc8c2b4130ebe66fc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:34:54,098+07:00]  INFO 4878 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:34:54,110+07:00]  WARN 4878 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:34:54,113+07:00]  INFO 4878 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:34:54,118+07:00]  INFO 4878 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:34:54,120+07:00]  INFO 4878 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:34:54,121+07:00]  INFO 4878 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:34:56,744+07:00]  INFO 4878 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:34:56,781+07:00]  INFO 4878 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:34:56,798+07:00]  INFO 4878 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:34:57,100+07:00]  INFO 4878 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:34:57,143+07:00]  INFO 4878 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:34:57,177+07:00]  INFO 4878 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.455 seconds (JVM running for 12.461)
+[2018-12-09T18:34:59,901+07:00]  INFO 4878 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:35:15,275+07:00]  INFO 4878 --- [http-nio-8084-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:46}] to localhost:27017
+[2018-12-09T18:38:45,963+07:00]  INFO 4878 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:46}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:38:54,132+07:00]  INFO 4918 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4918 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:38:54,142+07:00]  INFO 4918 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:38:58,653+07:00]  INFO 4918 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:38:58,675+07:00]  INFO 4918 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:38:58,675+07:00]  INFO 4918 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:38:58,694+07:00]  INFO 4918 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:38:58,978+07:00]  INFO 4918 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:39:00,053+07:00]  INFO 4918 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:39:00,054+07:00]  INFO 4918 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:39:00,138+07:00]  INFO 4918 --- [cluster-ClusterId{value='5c0cfed4c8c2b41336572ed9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:47}] to localhost:27017
+[2018-12-09T18:39:00,142+07:00]  INFO 4918 --- [cluster-ClusterId{value='5c0cfed4c8c2b41336572ed9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1828504}
+[2018-12-09T18:39:00,144+07:00]  INFO 4918 --- [cluster-ClusterId{value='5c0cfed4c8c2b41336572ed9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:39:01,430+07:00]  INFO 4918 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:39:01,446+07:00]  WARN 4918 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:39:01,450+07:00]  INFO 4918 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:39:01,455+07:00]  INFO 4918 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:39:01,457+07:00]  INFO 4918 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:39:01,458+07:00]  INFO 4918 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:39:03,936+07:00]  INFO 4918 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:39:03,981+07:00]  INFO 4918 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:39:04,004+07:00]  INFO 4918 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:39:04,316+07:00]  INFO 4918 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:39:04,429+07:00]  INFO 4918 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:39:04,483+07:00]  INFO 4918 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.965 seconds (JVM running for 12.979)
+[2018-12-09T18:39:07,403+07:00]  INFO 4918 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:39:07,855+07:00]  INFO 4918 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:48}] to localhost:27017
+[2018-12-09T18:43:10,034+07:00]  INFO 4918 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:48}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:43:23,290+07:00]  INFO 4973 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4973 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:43:23,312+07:00]  INFO 4973 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:43:27,584+07:00]  INFO 4973 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:43:27,608+07:00]  INFO 4973 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:43:27,608+07:00]  INFO 4973 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:43:27,627+07:00]  INFO 4973 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:43:28,093+07:00]  INFO 4973 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:43:29,184+07:00]  INFO 4973 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:43:29,184+07:00]  INFO 4973 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:43:29,275+07:00]  INFO 4973 --- [cluster-ClusterId{value='5c0cffe1c8c2b4136d00a727', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:49}] to localhost:27017
+[2018-12-09T18:43:29,280+07:00]  INFO 4973 --- [cluster-ClusterId{value='5c0cffe1c8c2b4136d00a727', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1875686}
+[2018-12-09T18:43:29,282+07:00]  INFO 4973 --- [cluster-ClusterId{value='5c0cffe1c8c2b4136d00a727', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:43:30,627+07:00]  INFO 4973 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:43:30,640+07:00]  WARN 4973 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:43:30,645+07:00]  INFO 4973 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:43:30,650+07:00]  INFO 4973 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:43:30,653+07:00]  INFO 4973 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:43:30,654+07:00]  INFO 4973 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:43:32,942+07:00]  INFO 4973 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:43:32,982+07:00]  INFO 4973 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:43:32,998+07:00]  INFO 4973 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:43:33,275+07:00]  INFO 4973 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:43:33,321+07:00]  INFO 4973 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:43:33,352+07:00]  INFO 4973 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 12.036 seconds (JVM running for 12.981)
+[2018-12-09T18:43:48,225+07:00]  INFO 4973 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:43:48,758+07:00]  INFO 4973 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:50}] to localhost:27017
+[2018-12-09T18:43:53,904+07:00] ERROR 4973 --- [http-nio-8084-exec-2] org.dozer.MappingProcessor               : Field mapping error -->
+  MapId: null
+  Type: null
+  Source parent class: com.coviam.codiecon.mongo.backend.entity.UserMaster
+  Source field name: userId
+  Source field type: class java.lang.String
+  Source field value: 5c0cfff9c8c2b4136d00a728
+  Dest parent class: com.coviam.codiecon.mongo.backend.web.model.response.UserResponse
+  Dest field name: userId
+  Dest field type: java.lang.Long
+
+org.dozer.converters.ConversionException: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0cfff9c8c2b4136d00a728"
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:70)
+	at org.dozer.MappingProcessor.mapOrRecurseObject(MappingProcessor.java:449)
+	at org.dozer.MappingProcessor.mapFromFieldMap(MappingProcessor.java:361)
+	at org.dozer.MappingProcessor.mapField(MappingProcessor.java:307)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:267)
+	at org.dozer.MappingProcessor.mapToDestObject(MappingProcessor.java:216)
+	at org.dozer.MappingProcessor.createByCreationDirectiveAndMap(MappingProcessor.java:196)
+	at org.dozer.MappingProcessor.mapGeneral(MappingProcessor.java:170)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:104)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:99)
+	at org.dozer.DozerBeanMapper.map(DozerBeanMapper.java:120)
+	at com.coviam.codiecon.mongo.backend.api.web.helper.impl.WebModelConverterServiceImpl.convert1(WebModelConverterServiceImpl.java:19)
+	at com.coviam.codiecon.mongo.backend.api.web.controller.UserController.createUser(UserController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0cfff9c8c2b4136d00a728"
+	at org.apache.commons.beanutils.converters.AbstractConverter.handleError(AbstractConverter.java:282)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:177)
+	at org.dozer.converters.LongConverter.convert(LongConverter.java:39)
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:68)
+	... 76 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "5c0cfff9c8c2b4136d00a728"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.<init>(Long.java:965)
+	at org.apache.commons.beanutils.converters.NumberConverter.toNumber(NumberConverter.java:436)
+	at org.apache.commons.beanutils.converters.NumberConverter.convertToType(NumberConverter.java:271)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:169)
+	... 78 common frames omitted
+
+[2018-12-09T18:44:30,803+07:00] ERROR 4973 --- [http-nio-8084-exec-5] org.dozer.MappingProcessor               : Field mapping error -->
+  MapId: null
+  Type: null
+  Source parent class: com.coviam.codiecon.mongo.backend.entity.UserMaster
+  Source field name: userId
+  Source field type: class java.lang.String
+  Source field value: 5c0d001ec8c2b4136d00a729
+  Dest parent class: com.coviam.codiecon.mongo.backend.web.model.response.UserResponse
+  Dest field name: userId
+  Dest field type: java.lang.Long
+
+org.dozer.converters.ConversionException: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0d001ec8c2b4136d00a729"
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:70)
+	at org.dozer.MappingProcessor.mapOrRecurseObject(MappingProcessor.java:449)
+	at org.dozer.MappingProcessor.mapFromFieldMap(MappingProcessor.java:361)
+	at org.dozer.MappingProcessor.mapField(MappingProcessor.java:307)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:267)
+	at org.dozer.MappingProcessor.mapToDestObject(MappingProcessor.java:216)
+	at org.dozer.MappingProcessor.createByCreationDirectiveAndMap(MappingProcessor.java:196)
+	at org.dozer.MappingProcessor.mapGeneral(MappingProcessor.java:170)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:104)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:99)
+	at org.dozer.DozerBeanMapper.map(DozerBeanMapper.java:120)
+	at com.coviam.codiecon.mongo.backend.api.web.helper.impl.WebModelConverterServiceImpl.convert1(WebModelConverterServiceImpl.java:19)
+	at com.coviam.codiecon.mongo.backend.api.web.controller.UserController.createUser(UserController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0d001ec8c2b4136d00a729"
+	at org.apache.commons.beanutils.converters.AbstractConverter.handleError(AbstractConverter.java:282)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:177)
+	at org.dozer.converters.LongConverter.convert(LongConverter.java:39)
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:68)
+	... 76 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "5c0d001ec8c2b4136d00a729"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.<init>(Long.java:965)
+	at org.apache.commons.beanutils.converters.NumberConverter.toNumber(NumberConverter.java:436)
+	at org.apache.commons.beanutils.converters.NumberConverter.convertToType(NumberConverter.java:271)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:169)
+	... 78 common frames omitted
+
+[2018-12-09T18:44:39,088+07:00] ERROR 4973 --- [http-nio-8084-exec-6] org.dozer.MappingProcessor               : Field mapping error -->
+  MapId: null
+  Type: null
+  Source parent class: com.coviam.codiecon.mongo.backend.entity.UserMaster
+  Source field name: userId
+  Source field type: class java.lang.String
+  Source field value: 5c0d001ec8c2b4136d00a729
+  Dest parent class: com.coviam.codiecon.mongo.backend.web.model.response.UserResponse
+  Dest field name: userId
+  Dest field type: java.lang.Long
+
+org.dozer.converters.ConversionException: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0d001ec8c2b4136d00a729"
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:70)
+	at org.dozer.MappingProcessor.mapOrRecurseObject(MappingProcessor.java:449)
+	at org.dozer.MappingProcessor.mapFromFieldMap(MappingProcessor.java:361)
+	at org.dozer.MappingProcessor.mapField(MappingProcessor.java:307)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:267)
+	at org.dozer.MappingProcessor.mapToDestObject(MappingProcessor.java:216)
+	at org.dozer.MappingProcessor.createByCreationDirectiveAndMap(MappingProcessor.java:196)
+	at org.dozer.MappingProcessor.mapGeneral(MappingProcessor.java:170)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:104)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:99)
+	at org.dozer.DozerBeanMapper.map(DozerBeanMapper.java:120)
+	at com.coviam.codiecon.mongo.backend.api.web.helper.impl.WebModelConverterServiceImpl.convert1(WebModelConverterServiceImpl.java:19)
+	at com.coviam.codiecon.mongo.backend.api.web.controller.UserController.findById(UserController.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0d001ec8c2b4136d00a729"
+	at org.apache.commons.beanutils.converters.AbstractConverter.handleError(AbstractConverter.java:282)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:177)
+	at org.dozer.converters.LongConverter.convert(LongConverter.java:39)
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:68)
+	... 76 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "5c0d001ec8c2b4136d00a729"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.<init>(Long.java:965)
+	at org.apache.commons.beanutils.converters.NumberConverter.toNumber(NumberConverter.java:436)
+	at org.apache.commons.beanutils.converters.NumberConverter.convertToType(NumberConverter.java:271)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:169)
+	... 78 common frames omitted
+
+[2018-12-09T18:45:56,504+07:00] ERROR 4973 --- [http-nio-8084-exec-9] org.dozer.MappingProcessor               : Field mapping error -->
+  MapId: null
+  Type: null
+  Source parent class: com.coviam.codiecon.mongo.backend.entity.UserMaster
+  Source field name: userId
+  Source field type: class java.lang.String
+  Source field value: 5c0cfff9c8c2b4136d00a728
+  Dest parent class: com.coviam.codiecon.mongo.backend.web.model.response.UserResponse
+  Dest field name: userId
+  Dest field type: java.lang.Long
+
+org.dozer.converters.ConversionException: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0cfff9c8c2b4136d00a728"
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:70)
+	at org.dozer.MappingProcessor.mapOrRecurseObject(MappingProcessor.java:449)
+	at org.dozer.MappingProcessor.mapFromFieldMap(MappingProcessor.java:361)
+	at org.dozer.MappingProcessor.mapField(MappingProcessor.java:307)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:267)
+	at org.dozer.MappingProcessor.mapToDestObject(MappingProcessor.java:216)
+	at org.dozer.MappingProcessor.createByCreationDirectiveAndMap(MappingProcessor.java:196)
+	at org.dozer.MappingProcessor.mapGeneral(MappingProcessor.java:170)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:104)
+	at org.dozer.MappingProcessor.map(MappingProcessor.java:99)
+	at org.dozer.DozerBeanMapper.map(DozerBeanMapper.java:120)
+	at com.coviam.codiecon.mongo.backend.api.web.helper.impl.WebModelConverterServiceImpl.convert1(WebModelConverterServiceImpl.java:19)
+	at com.coviam.codiecon.mongo.backend.api.web.controller.UserController.findById(UserController.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.beanutils.ConversionException: Error converting from 'String' to 'Long' For input string: "5c0cfff9c8c2b4136d00a728"
+	at org.apache.commons.beanutils.converters.AbstractConverter.handleError(AbstractConverter.java:282)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:177)
+	at org.dozer.converters.LongConverter.convert(LongConverter.java:39)
+	at org.dozer.converters.PrimitiveOrWrapperConverter.convert(PrimitiveOrWrapperConverter.java:68)
+	... 76 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "5c0cfff9c8c2b4136d00a728"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.<init>(Long.java:965)
+	at org.apache.commons.beanutils.converters.NumberConverter.toNumber(NumberConverter.java:436)
+	at org.apache.commons.beanutils.converters.NumberConverter.convertToType(NumberConverter.java:271)
+	at org.apache.commons.beanutils.converters.AbstractConverter.convert(AbstractConverter.java:169)
+	... 78 common frames omitted
+
+[2018-12-09T18:46:16,508+07:00]  INFO 4973 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:50}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:46:22,773+07:00]  INFO 4999 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 4999 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:46:22,809+07:00]  INFO 4999 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:46:27,056+07:00]  INFO 4999 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:46:27,078+07:00]  INFO 4999 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:46:27,079+07:00]  INFO 4999 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:46:27,097+07:00]  INFO 4999 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:46:27,409+07:00]  INFO 4999 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:46:28,482+07:00]  INFO 4999 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:46:28,482+07:00]  INFO 4999 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:46:28,569+07:00]  INFO 4999 --- [cluster-ClusterId{value='5c0d0094c8c2b413872ca5cc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:53}] to localhost:27017
+[2018-12-09T18:46:28,573+07:00]  INFO 4999 --- [cluster-ClusterId{value='5c0d0094c8c2b413872ca5cc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1858628}
+[2018-12-09T18:46:28,575+07:00]  INFO 4999 --- [cluster-ClusterId{value='5c0d0094c8c2b413872ca5cc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:46:29,895+07:00]  INFO 4999 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:46:29,912+07:00]  WARN 4999 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:46:29,916+07:00]  INFO 4999 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:46:29,920+07:00]  INFO 4999 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:46:29,923+07:00]  INFO 4999 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:46:29,924+07:00]  INFO 4999 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:46:32,176+07:00]  INFO 4999 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:46:32,217+07:00]  INFO 4999 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:46:32,233+07:00]  INFO 4999 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:46:32,528+07:00]  INFO 4999 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:46:32,567+07:00]  INFO 4999 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:46:32,599+07:00]  INFO 4999 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.667 seconds (JVM running for 12.755)
+[2018-12-09T18:46:39,084+07:00]  INFO 4999 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:46:39,318+07:00]  INFO 4999 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:54}] to localhost:27017
+[2018-12-09T18:47:57,196+07:00]  INFO 4999 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:54}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:48:02,734+07:00]  INFO 5017 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5017 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:48:02,773+07:00]  INFO 5017 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:48:06,780+07:00]  INFO 5017 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:48:06,807+07:00]  INFO 5017 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:48:06,808+07:00]  INFO 5017 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:48:06,826+07:00]  INFO 5017 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:48:07,136+07:00]  INFO 5017 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:48:08,205+07:00]  INFO 5017 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:48:08,205+07:00]  INFO 5017 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:48:08,308+07:00]  INFO 5017 --- [cluster-ClusterId{value='5c0d00f8c8c2b413996ae741', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:55}] to localhost:27017
+[2018-12-09T18:48:08,314+07:00]  INFO 5017 --- [cluster-ClusterId{value='5c0d00f8c8c2b413996ae741', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2219063}
+[2018-12-09T18:48:08,316+07:00]  INFO 5017 --- [cluster-ClusterId{value='5c0d00f8c8c2b413996ae741', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:48:09,820+07:00]  INFO 5017 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:48:09,836+07:00]  WARN 5017 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:48:09,839+07:00]  INFO 5017 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:48:09,845+07:00]  INFO 5017 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:48:09,846+07:00]  INFO 5017 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:48:09,848+07:00]  INFO 5017 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:48:12,943+07:00]  INFO 5017 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:48:12,987+07:00]  INFO 5017 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:48:13,003+07:00]  INFO 5017 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:48:13,271+07:00]  INFO 5017 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:48:13,317+07:00]  INFO 5017 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:48:13,357+07:00]  INFO 5017 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 12.167 seconds (JVM running for 13.096)
+[2018-12-09T18:48:21,841+07:00]  INFO 5017 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:48:22,285+07:00]  INFO 5017 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:56}] to localhost:27017
+[2018-12-09T18:49:36,533+07:00]  INFO 5017 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:56}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:49:43,320+07:00]  INFO 5032 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5032 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:49:43,328+07:00]  INFO 5032 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:49:47,624+07:00]  INFO 5032 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:49:47,671+07:00]  INFO 5032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:49:47,672+07:00]  INFO 5032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:49:47,687+07:00]  INFO 5032 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:49:47,952+07:00]  INFO 5032 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:49:49,016+07:00]  INFO 5032 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:49:49,016+07:00]  INFO 5032 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:49:49,117+07:00]  INFO 5032 --- [cluster-ClusterId{value='5c0d015dc8c2b413a851785b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:57}] to localhost:27017
+[2018-12-09T18:49:49,122+07:00]  INFO 5032 --- [cluster-ClusterId{value='5c0d015dc8c2b413a851785b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2145851}
+[2018-12-09T18:49:49,124+07:00]  INFO 5032 --- [cluster-ClusterId{value='5c0d015dc8c2b413a851785b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:49:50,446+07:00]  INFO 5032 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:49:50,460+07:00]  WARN 5032 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:49:50,463+07:00]  INFO 5032 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:49:50,468+07:00]  INFO 5032 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:49:50,470+07:00]  INFO 5032 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:49:50,471+07:00]  INFO 5032 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:49:52,746+07:00]  INFO 5032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:49:52,784+07:00]  INFO 5032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:49:52,801+07:00]  INFO 5032 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:49:53,073+07:00]  INFO 5032 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:49:53,119+07:00]  INFO 5032 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:49:53,149+07:00]  INFO 5032 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.325 seconds (JVM running for 12.329)
+[2018-12-09T18:49:56,755+07:00]  INFO 5032 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T18:50:09,825+07:00]  INFO 5032 --- [http-nio-8084-exec-8] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:58}] to localhost:27017
+[2018-12-09T18:59:02,711+07:00]  INFO 5032 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:58}] to localhost:27017 because the pool has been closed.
+[2018-12-09T18:59:42,126+07:00]  INFO 5106 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5106 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T18:59:42,140+07:00]  INFO 5106 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T18:59:46,473+07:00]  INFO 5106 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:59:46,530+07:00]  INFO 5106 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T18:59:46,605+07:00]  INFO 5106 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T18:59:46,623+07:00]  INFO 5106 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T18:59:46,895+07:00]  INFO 5106 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T18:59:48,076+07:00]  INFO 5106 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T18:59:48,079+07:00]  INFO 5106 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T18:59:48,177+07:00]  INFO 5106 --- [cluster-ClusterId{value='5c0d03b4c8c2b413f24c9f15', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:59}] to localhost:27017
+[2018-12-09T18:59:48,182+07:00]  INFO 5106 --- [cluster-ClusterId{value='5c0d03b4c8c2b413f24c9f15', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2031409}
+[2018-12-09T18:59:48,185+07:00]  INFO 5106 --- [cluster-ClusterId{value='5c0d03b4c8c2b413f24c9f15', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T18:59:49,780+07:00]  INFO 5106 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T18:59:49,792+07:00]  WARN 5106 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T18:59:49,794+07:00]  INFO 5106 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T18:59:49,799+07:00]  INFO 5106 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T18:59:49,801+07:00]  INFO 5106 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T18:59:49,802+07:00]  INFO 5106 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T18:59:52,251+07:00]  INFO 5106 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T18:59:52,291+07:00]  INFO 5106 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T18:59:52,309+07:00]  INFO 5106 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T18:59:52,647+07:00]  INFO 5106 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T18:59:52,686+07:00]  INFO 5106 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T18:59:52,718+07:00]  INFO 5106 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 12.128 seconds (JVM running for 13.16)
+[2018-12-09T19:00:01,224+07:00]  INFO 5106 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:00:28,150+07:00]  INFO 5106 --- [http-nio-8084-exec-7] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:60}] to localhost:27017
+[2018-12-09T19:01:38,035+07:00]  INFO 5106 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:60}] to localhost:27017 because the pool has been closed.
+[2018-12-09T19:01:43,668+07:00]  INFO 5126 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5126 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T19:01:43,771+07:00]  INFO 5126 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T19:01:47,930+07:00]  INFO 5126 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:01:47,981+07:00]  INFO 5126 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T19:01:47,982+07:00]  INFO 5126 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T19:01:48,007+07:00]  INFO 5126 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T19:01:48,297+07:00]  INFO 5126 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T19:01:49,384+07:00]  INFO 5126 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T19:01:49,384+07:00]  INFO 5126 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T19:01:49,481+07:00]  INFO 5126 --- [cluster-ClusterId{value='5c0d042dc8c2b41406194886', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:61}] to localhost:27017
+[2018-12-09T19:01:49,486+07:00]  INFO 5126 --- [cluster-ClusterId{value='5c0d042dc8c2b41406194886', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1896577}
+[2018-12-09T19:01:49,488+07:00]  INFO 5126 --- [cluster-ClusterId{value='5c0d042dc8c2b41406194886', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T19:01:50,785+07:00]  INFO 5126 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T19:01:50,797+07:00]  WARN 5126 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T19:01:50,799+07:00]  INFO 5126 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T19:01:50,803+07:00]  INFO 5126 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T19:01:50,805+07:00]  INFO 5126 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T19:01:50,806+07:00]  INFO 5126 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T19:01:53,046+07:00]  INFO 5126 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T19:01:53,080+07:00]  INFO 5126 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T19:01:53,097+07:00]  INFO 5126 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T19:01:53,398+07:00]  INFO 5126 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:01:53,441+07:00]  INFO 5126 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T19:01:53,463+07:00]  INFO 5126 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 11.363 seconds (JVM running for 12.329)
+[2018-12-09T19:01:56,628+07:00]  INFO 5126 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:01:57,005+07:00]  INFO 5126 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:62}] to localhost:27017
+[2018-12-09T19:02:49,219+07:00]  INFO 5126 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:62}] to localhost:27017 because the pool has been closed.
+[2018-12-09T19:02:58,734+07:00]  INFO 5136 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5136 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T19:02:58,746+07:00]  INFO 5136 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T19:03:04,015+07:00]  INFO 5136 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:03:04,039+07:00]  INFO 5136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T19:03:04,040+07:00]  INFO 5136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T19:03:04,062+07:00]  INFO 5136 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T19:03:04,271+07:00]  INFO 5136 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T19:03:05,748+07:00]  INFO 5136 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T19:03:05,749+07:00]  INFO 5136 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T19:03:05,904+07:00]  INFO 5136 --- [cluster-ClusterId{value='5c0d0479c8c2b414108a6d34', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:63}] to localhost:27017
+[2018-12-09T19:03:05,909+07:00]  INFO 5136 --- [cluster-ClusterId{value='5c0d0479c8c2b414108a6d34', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2042204}
+[2018-12-09T19:03:05,912+07:00]  INFO 5136 --- [cluster-ClusterId{value='5c0d0479c8c2b414108a6d34', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T19:03:08,678+07:00]  INFO 5136 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T19:03:08,697+07:00]  WARN 5136 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T19:03:08,701+07:00]  INFO 5136 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T19:03:08,707+07:00]  INFO 5136 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T19:03:08,716+07:00]  INFO 5136 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T19:03:08,717+07:00]  INFO 5136 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T19:03:12,181+07:00]  INFO 5136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T19:03:12,228+07:00]  INFO 5136 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T19:03:12,248+07:00]  INFO 5136 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T19:03:12,697+07:00]  INFO 5136 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:03:12,744+07:00]  INFO 5136 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T19:03:12,783+07:00]  INFO 5136 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 16.032 seconds (JVM running for 19.017)
+[2018-12-09T19:03:17,554+07:00]  INFO 5136 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:03:33,089+07:00]  INFO 5136 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:64}] to localhost:27017
+[2018-12-09T19:03:41,027+07:00]  INFO 5136 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:64}] to localhost:27017 because the pool has been closed.
+[2018-12-09T19:04:14,515+07:00]  INFO 5146 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5146 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T19:04:14,528+07:00]  INFO 5146 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T19:04:19,143+07:00]  INFO 5146 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:04:19,167+07:00]  INFO 5146 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T19:04:19,168+07:00]  INFO 5146 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T19:04:19,189+07:00]  INFO 5146 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T19:04:19,398+07:00]  INFO 5146 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T19:04:20,769+07:00]  INFO 5146 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T19:04:20,770+07:00]  INFO 5146 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T19:04:20,893+07:00]  INFO 5146 --- [cluster-ClusterId{value='5c0d04c4c8c2b4141a70f460', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:65}] to localhost:27017
+[2018-12-09T19:04:20,898+07:00]  INFO 5146 --- [cluster-ClusterId{value='5c0d04c4c8c2b4141a70f460', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2602263}
+[2018-12-09T19:04:20,902+07:00]  INFO 5146 --- [cluster-ClusterId{value='5c0d04c4c8c2b4141a70f460', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T19:04:22,364+07:00]  INFO 5146 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T19:04:22,375+07:00]  WARN 5146 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T19:04:22,378+07:00]  INFO 5146 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T19:04:22,383+07:00]  INFO 5146 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T19:04:22,386+07:00]  INFO 5146 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T19:04:22,387+07:00]  INFO 5146 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T19:04:25,120+07:00]  INFO 5146 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T19:04:25,163+07:00]  INFO 5146 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T19:04:25,187+07:00]  INFO 5146 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T19:04:25,527+07:00]  INFO 5146 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:04:25,571+07:00]  INFO 5146 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T19:04:25,610+07:00]  INFO 5146 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 13.168 seconds (JVM running for 14.62)
+[2018-12-09T19:04:36,727+07:00]  INFO 5146 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:04:40,690+07:00]  INFO 5146 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:66}] to localhost:27017
+[2018-12-09T19:15:24,600+07:00]  INFO 5146 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:66}] to localhost:27017 because the pool has been closed.
+[2018-12-09T19:15:31,186+07:00]  INFO 5235 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5235 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T19:15:31,205+07:00]  INFO 5235 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T19:15:35,902+07:00]  INFO 5235 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:15:35,927+07:00]  INFO 5235 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T19:15:35,928+07:00]  INFO 5235 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T19:15:35,955+07:00]  INFO 5235 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T19:15:36,170+07:00]  INFO 5235 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T19:15:37,454+07:00]  INFO 5235 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T19:15:37,456+07:00]  INFO 5235 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T19:15:37,614+07:00]  INFO 5235 --- [cluster-ClusterId{value='5c0d0769c8c2b414730141bc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:67}] to localhost:27017
+[2018-12-09T19:15:37,620+07:00]  INFO 5235 --- [cluster-ClusterId{value='5c0d0769c8c2b414730141bc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2378114}
+[2018-12-09T19:15:37,622+07:00]  INFO 5235 --- [cluster-ClusterId{value='5c0d0769c8c2b414730141bc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T19:15:39,241+07:00]  INFO 5235 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T19:15:39,254+07:00]  WARN 5235 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T19:15:39,259+07:00]  INFO 5235 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T19:15:39,266+07:00]  INFO 5235 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T19:15:39,268+07:00]  INFO 5235 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T19:15:39,270+07:00]  INFO 5235 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T19:15:42,260+07:00]  INFO 5235 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T19:15:42,339+07:00]  INFO 5235 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T19:15:42,368+07:00]  INFO 5235 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T19:15:42,757+07:00]  INFO 5235 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:15:42,802+07:00]  INFO 5235 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T19:15:42,841+07:00]  INFO 5235 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 13.685 seconds (JVM running for 15.13)
+[2018-12-09T19:15:46,342+07:00]  INFO 5235 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:15:49,427+07:00]  INFO 5235 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:68}] to localhost:27017
+[2018-12-09T19:19:07,251+07:00]  INFO 5235 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:68}] to localhost:27017 because the pool has been closed.
+[2018-12-09T19:19:13,755+07:00]  INFO 5260 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5260 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T19:19:13,770+07:00]  INFO 5260 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T19:19:18,705+07:00]  INFO 5260 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:19:18,733+07:00]  INFO 5260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T19:19:18,733+07:00]  INFO 5260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T19:19:18,757+07:00]  INFO 5260 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T19:19:18,975+07:00]  INFO 5260 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T19:19:20,363+07:00]  INFO 5260 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T19:19:20,364+07:00]  INFO 5260 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T19:19:20,502+07:00]  INFO 5260 --- [cluster-ClusterId{value='5c0d0848c8c2b4148ce49089', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:69}] to localhost:27017
+[2018-12-09T19:19:20,506+07:00]  INFO 5260 --- [cluster-ClusterId{value='5c0d0848c8c2b4148ce49089', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1738743}
+[2018-12-09T19:19:20,510+07:00]  INFO 5260 --- [cluster-ClusterId{value='5c0d0848c8c2b4148ce49089', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T19:19:22,131+07:00]  INFO 5260 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T19:19:22,149+07:00]  WARN 5260 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T19:19:22,155+07:00]  INFO 5260 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T19:19:22,161+07:00]  INFO 5260 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T19:19:22,163+07:00]  INFO 5260 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T19:19:22,165+07:00]  INFO 5260 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T19:19:24,859+07:00]  INFO 5260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T19:19:24,901+07:00]  INFO 5260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T19:19:24,923+07:00]  INFO 5260 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T19:19:25,309+07:00]  INFO 5260 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:19:25,358+07:00]  INFO 5260 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T19:19:25,394+07:00]  INFO 5260 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 13.706 seconds (JVM running for 14.939)
+[2018-12-09T19:19:34,877+07:00]  INFO 5260 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:19:37,150+07:00]  INFO 5260 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:70}] to localhost:27017
+[2018-12-09T19:25:39,185+07:00]  INFO 5260 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:70}] to localhost:27017 because the pool has been closed.
+[2018-12-09T19:25:47,396+07:00]  INFO 5309 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5309 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T19:25:47,415+07:00]  INFO 5309 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T19:25:52,258+07:00]  INFO 5309 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:25:52,289+07:00]  INFO 5309 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T19:25:52,290+07:00]  INFO 5309 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T19:25:52,315+07:00]  INFO 5309 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T19:25:52,539+07:00]  INFO 5309 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T19:25:53,907+07:00]  INFO 5309 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T19:25:53,907+07:00]  INFO 5309 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T19:25:54,052+07:00]  INFO 5309 --- [cluster-ClusterId{value='5c0d09d1c8c2b414bd5f376b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:71}] to localhost:27017
+[2018-12-09T19:25:54,057+07:00]  INFO 5309 --- [cluster-ClusterId{value='5c0d09d1c8c2b414bd5f376b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2047818}
+[2018-12-09T19:25:54,068+07:00]  INFO 5309 --- [cluster-ClusterId{value='5c0d09d1c8c2b414bd5f376b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T19:25:55,716+07:00]  INFO 5309 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T19:25:55,729+07:00]  WARN 5309 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T19:25:55,733+07:00]  INFO 5309 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T19:25:55,738+07:00]  INFO 5309 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T19:25:55,740+07:00]  INFO 5309 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T19:25:55,742+07:00]  INFO 5309 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T19:25:58,385+07:00]  INFO 5309 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T19:25:58,429+07:00]  INFO 5309 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T19:25:58,452+07:00]  INFO 5309 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T19:25:58,840+07:00]  INFO 5309 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:25:58,885+07:00]  INFO 5309 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T19:25:58,924+07:00]  INFO 5309 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 13.633 seconds (JVM running for 15.24)
+[2018-12-09T19:26:08,886+07:00]  INFO 5309 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:26:11,384+07:00]  INFO 5309 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:72}] to localhost:27017
+[2018-12-09T19:26:48,736+07:00]  INFO 5309 --- [Thread-6] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:72}] to localhost:27017 because the pool has been closed.
+[2018-12-09T19:26:55,140+07:00]  INFO 5320 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Starting CodieconBackendApplication on Vishals-MacBook-Pro.local with PID 5320 (/Users/Vishal/Desktop/Codiecon/Codiecon-backend2/Codiecon-backend-web/target/classes started by Vishal in /Users/Vishal/Desktop/Codiecon/Codiecon-backend2)
+[2018-12-09T19:26:55,157+07:00]  INFO 5320 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : No active profile set, falling back to default profiles: default
+[2018-12-09T19:27:00,097+07:00]  INFO 5320 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:27:00,123+07:00]  INFO 5320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[2018-12-09T19:27:00,124+07:00]  INFO 5320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[2018-12-09T19:27:00,145+07:00]  INFO 5320 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-12-09T19:27:00,357+07:00]  INFO 5320 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring embedded WebApplicationContext
+[2018-12-09T19:27:01,691+07:00]  INFO 5320 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[2018-12-09T19:27:01,693+07:00]  INFO 5320 --- [localhost-startStop-1] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+[2018-12-09T19:27:01,842+07:00]  INFO 5320 --- [cluster-ClusterId{value='5c0d0a15c8c2b414c8ddda3f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:73}] to localhost:27017
+[2018-12-09T19:27:01,846+07:00]  INFO 5320 --- [cluster-ClusterId{value='5c0d0a15c8c2b414c8ddda3f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 0, 15]}, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2074217}
+[2018-12-09T19:27:01,849+07:00]  INFO 5320 --- [cluster-ClusterId{value='5c0d0a15c8c2b414c8ddda3f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+[2018-12-09T19:27:03,396+07:00]  INFO 5320 --- [main] org.dozer.config.GlobalSettings          : Trying to find Dozer configuration file: dozer.properties
+[2018-12-09T19:27:03,408+07:00]  WARN 5320 --- [main] org.dozer.config.GlobalSettings          : Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2018-12-09T19:27:03,411+07:00]  INFO 5320 --- [main] org.dozer.DozerInitializer               : Initializing Dozer. Version: 5.5.0, Thread Name: main
+[2018-12-09T19:27:03,416+07:00]  INFO 5320 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2018-12-09T19:27:03,417+07:00]  INFO 5320 --- [main] org.dozer.jmx.JMXPlatformImpl            : Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2018-12-09T19:27:03,419+07:00]  INFO 5320 --- [main] org.dozer.DozerBeanMapper                : Initializing a new instance of dozer bean mapper.
+[2018-12-09T19:27:06,206+07:00]  INFO 5320 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+[2018-12-09T19:27:06,262+07:00]  INFO 5320 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+[2018-12-09T19:27:06,284+07:00]  INFO 5320 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+[2018-12-09T19:27:06,639+07:00]  INFO 5320 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8084"]
+[2018-12-09T19:27:06,688+07:00]  INFO 5320 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+[2018-12-09T19:27:06,724+07:00]  INFO 5320 --- [main] c.c.c.m.b.a.CodieconBackendApplication   : Started CodieconBackendApplication in 13.626 seconds (JVM running for 14.856)
+[2018-12-09T19:27:10,535+07:00]  INFO 5320 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[localhost].[/codiecon]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-12-09T19:27:13,079+07:00]  INFO 5320 --- [http-nio-8084-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:74}] to localhost:27017

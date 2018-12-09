@@ -1,0 +1,5 @@
+com/coviam/codiecon/mongo/backend/api/CodieconBackendApplication.class
+com/coviam/codiecon/mongo/backend/api/web/controller/UserController.class
+com/coviam/codiecon/mongo/backend/api/web/controller/AnswerController.class
+com/coviam/codiecon/mongo/backend/api/web/helper/impl/WebModelConverterServiceImpl.class
+com/coviam/codiecon/mongo/backend/api/web/helper/api/WebModelConverterService.class
